@@ -318,7 +318,7 @@
         <section class="section-wihout-padding-top-itd">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-xs-12">
+            <div class="col-md-6 col-sm-12">
                 <div class="row pb-3">
                     <h1>Кинотеатр «Побе́да»</h1>
                 </div>
@@ -330,9 +330,9 @@
                     </div>   
                 </div>
 
-                <div class="row pb-3">
+                <div class="row">
                     <div class="d-flex justify-content-start time-table-itd">
-                        <img src="img/icons/clock.png" alt="Иконка геолокации">
+                        <img src="img/icons/clock.png" alt="Иконка часов">
                         <div>
                             <p>понедельник</p>
                             <p>вторник</p>      
@@ -352,37 +352,43 @@
                             <p>выходной</p>
                         </div>
                     </div>  
-                    <button type="button" class="btn btn-outline-success btn-description-itd">
+                    <a href="#scrollspyMap" type="button" class="btn btn-outline-success btn-description-itd">
                         К карте
-                    </button> 
+                    </a> 
                 </div>
             </div>
-            <div class="col-lg-6 col-xs-12">
+            <div class="col-md-6 col-sm-12">
                 <div class="slider-description-itd">
                 <!------------------------------->
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel carousel-2 slide" data-bs-ride="carousel">
                         <div class="carousel-indicators carousel-indicators-2">
                           <button id="bullets" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="bullets-2 active" aria-current="true" aria-label="Slide 1"></button>
                           <button id="bullets" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bullets-2" aria-label="Slide 2"></button>
                           <button id="bullets" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bullets-2" aria-label="Slide 3"></button>
                         </div>
 
-                        <div class="carousel-inner carousel-inner-2" data-bs-toggle="modal" href="#exampleModalToggle">
+                        
+                        
+                        <div class="carousel-inner carousel-inner-2">
+                          <div class="modal-turn-off-itd" data-bs-toggle="modal" href="#exampleModalToggle">
+                          </div>
                           <div class="carousel-item carousel-item-2 active">
-                            <img src="img/forSlider2.jpg" class="d-block w-100" alt="...">
+                            <img src="img/forSlider2.jpg" class="carousel-img-2 d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item carousel-item-2">
-                            <img src="img/forSlider2.jpg" class="d-block w-100" alt="...">
+                            <img src="img/forSlider2.jpg" class="carousel-img-2 d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item carousel-item-2">
-                            <img src="img/forSlider2.jpg" class="d-block w-100" alt="...">
+                            <img src="img/forSlider2.jpg" class="carousel-img-2 d-block w-100" alt="...">
                           </div>
                         </div>
+                        
+                        
 
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                        <button class="carousel-control-prev carousel-control-prev-next-2-itd" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
                             <img src="img/prev2.png" class="carousel-icon-2-itd" alt="">
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                        <button class="carousel-control-next carousel-control-prev-next-2-itd" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
                             <img src="img/next2.png" class="carousel-icon-2-itd" alt="">
                         </button>
                     </div>
@@ -434,8 +440,8 @@
         <section class="section-wihout-padding-top-itd">
     <div class="container">
         <div class="row">
-            <div class="col border-for-description-itd">
-                <div class="text-itd">
+            <div class="col">
+                <div class="text-itd border-for-description-itd">
                     <p class="description-head-itd">Кинотеатр «Побе́да»</p>
                     <p class="description-body-itd">
                         Первый камень в основание фундамента кинотеатра был заложен 9 мая 1945 г. В честь дня Победы в Великой Отечественной войне кинотеатр и получил своё название. Архитектором кинотеатра выступил С. И. Якшин.<br />
@@ -460,7 +466,7 @@
         </div>
     </div>
 </section>
-        <section class="section-wihout-padding-top-itd">
+        <section class="section-wihout-padding-top-itd" id="scrollspyMap">
     <div class="container">
         <div class="row">
             <div class="col">
